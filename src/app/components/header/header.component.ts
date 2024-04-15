@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, Router, RouterModule, RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-header',
