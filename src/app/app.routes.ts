@@ -5,6 +5,7 @@ import { InputComponent } from './components/pages/input/input.component';
 import { ProfileComponent } from './components/pages/profile/profile.component';
 import { LoginComponent } from './components/pages/login/login.component';
 import { SignupComponent } from './components/pages/signup/signup.component';
+import { ForgotPasswordComponent } from './components/pages/forgot-password/forgot-password.component';
 
 export const routes: Routes = [
   { path: '', title: 'Home page', component: HomeComponent },
@@ -13,5 +14,6 @@ export const routes: Routes = [
   { path: 'profile', title: 'Profile page', component: ProfileComponent },
   { path: 'login', title: 'Login page', component: LoginComponent },
   { path: 'signup', title: 'Sign page', component: SignupComponent },
+  { path: 'forgotpassword', title: 'ForgotPassword page', component: ForgotPasswordComponent },
   { path: '**', title: 'Not Found', component: NotfoundComponent },
 ];
