@@ -1,0 +1,116 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.login {
+  position: relative;
+
+  form {
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.13);
+    position: absolute;
+    top: 50px;
+    right: 230px;
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 40px 35px 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+  form * {
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+  }
+  form svg {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 42px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  label {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  input {
+    display: block;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 3px;
+    padding: 15px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  ::placeholder {
+    color: #e5e5e5;
+  }
+  button {
+    margin-top: 30px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.07);
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .social {
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    // justify-content: center;
+    align-items: center;
+
+    & > p {
+      font-size: 12px;
+    }
+
+    & > div {
+      margin-top: 20px;
+    }
+
+    svg {
+      font-size: 30px;
+      fill: #78787897;
+    }
+  }
+  //   .social div {
+  //     background: red;
+  //     width: 150px;
+  //     border-radius: 3px;
+  //     padding: 5px 10px 10px 5px;
+  //     background-color: rgba(255, 255, 255, 0.27);
+  //     color: #eaf0fb;
+  //     text-align: center;
+  //   }
+  .social .fb {
+    margin-left: 25px;
+  }
+
+  .links {
+    margin-top: 20px;
+  }
+
+  .social i {
+    margin-right: 4px;
+  }
+}
