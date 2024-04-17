@@ -1,27 +1,19 @@
-# MyLeetCode
+![image](https://github.com/Tohirjon-Odilov/LeetCodeUi/assets/82634626/9dba0d39-4079-432c-b87d-ba12202e9b18)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
+![image](https://github.com/Tohirjon-Odilov/LeetCodeUi/assets/82634626/78b03f7c-948f-4130-953a-168adc140163)
 
-## Development server
+![image](https://github.com/Tohirjon-Odilov/LeetCodeUi/assets/82634626/165b48db-6fa3-456b-ac7f-3cee304f4688)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![image](https://github.com/Tohirjon-Odilov/LeetCodeUi/assets/82634626/224ef62d-8096-41fd-8a4e-5de533b0094f)
 
-## Code scaffolding
+![image](https://github.com/Tohirjon-Odilov/LeetCodeUi/assets/82634626/0d58ce46-aa8e-46bf-b5fe-b0c0834a9a8b)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![image](https://github.com/Tohirjon-Odilov/LeetCodeUi/assets/82634626/e9a7adad-eeee-449b-9495-e518a2c141a3)
 
-## Build
+![image](https://github.com/Tohirjon-Odilov/LeetCodeUi/assets/82634626/6f7b27dd-627a-4b3a-978f-96e80cc066c6)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
