@@ -9,37 +9,33 @@ import { HttpClientModule } from '@angular/common/http';
   standalone: true,
   imports: [FormsModule, HttpClientModule],
   templateUrl: './input.component.html',
-  styleUrl: './input.component.scss'
+  styleUrl: './input.component.scss',
 })
-export class InputComponent implements OnInit{
+export class InputComponent {
   isSubmitted: boolean = false;
 
   resultData!: Code;
 
-  setValue : Code = {
-    code: ""
-  }
+  setValue: Code = {
+    code: '',
+  };
 
-  constructor(private crudService : SentCodeService) {}
-
-  ngOnInit(): void {
-    throw new Error('Method not impelemented.');
-  }
+  constructor(private crudService: SentCodeService) {}
 
   code(data: Code) {
     this.crudService.create(data).subscribe({
       next: (result) => {
-        let a = document.querySelector('#code-return') as HTMLElement; 
+        let a = document.querySelector('#code-return') as HTMLElement;
         a.innerHTML = result;
         this.isSubmitted = true;
       },
       error: (err) => {
         console.log(`Error ketti: ${err}`);
-      }
+      },
     });
   }
 
-  setCode(){
+  setCode() {
     this.code(this.setValue);
   }
 }

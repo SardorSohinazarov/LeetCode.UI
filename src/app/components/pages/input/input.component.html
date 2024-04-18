@@ -28,7 +28,13 @@
       </div>
       <div class="right wrapper">
         <label for="code"></label>
-        <textarea name="code" id="code" cols="100" rows="32" [(ngModel)]="setValue.code">
+        <textarea
+          name="code"
+          id="code"
+          cols="80"
+          rows="32"
+          [(ngModel)]="setValue.code"
+        >
           class Solution {
               public:
                   string minRemoveToMakeValid(string s) {
@@ -37,7 +43,9 @@
           };
         </textarea>
         <h1 id="code-return"></h1>
-        <button type="submit" (click)="setCode()" class="btn btn-primary">Submit</button>
+        <button type="submit" (click)="setCode()" class="btn btn-primary">
+          Submit
+        </button>
       </div>
     </div>
   </div>
