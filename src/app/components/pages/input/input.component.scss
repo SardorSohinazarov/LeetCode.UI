@@ -38,6 +38,14 @@
   }
 
   .right {
+    width: 100%;
+    &:first-child {
+      height: 70%;
+      margin-bottom: 10px;
+    }
+    &:last-child {
+      height: 28%;
+    }
     textarea {
       color: white;
       border: none;

@@ -17,7 +17,14 @@ export class InputComponent {
   resultData!: Code;
 
   setValue: Code = {
-    code: '',
+    code: `using System; 
+public class HelloWorld
+  {
+    public static void Main(string[] args)
+      {
+        Console.WriteLine(11);
+      }
+  }`,
   };
 
   constructor(private crudService: SentCodeService) {}

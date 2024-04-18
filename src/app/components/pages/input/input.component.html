@@ -26,26 +26,34 @@
           </div>
         </div>
       </div>
-      <div class="right wrapper">
-        <label for="code"></label>
-        <textarea
-          name="code"
-          id="code"
-          cols="80"
-          rows="32"
-          [(ngModel)]="setValue.code"
-        >
-          class Solution {
-              public:
-                  string minRemoveToMakeValid(string s) {
-                    
-                  }
-          };
-        </textarea>
-        <h1 id="code-return"></h1>
-        <button type="submit" (click)="setCode()" class="btn btn-primary">
-          Submit
-        </button>
+
+      <div class="">
+        <div class="right wrapper">
+          <label for="code"></label>
+          <textarea
+            name="code"
+            id="code"
+            cols="80"
+            rows="20"
+            [(ngModel)]="setValue.code"
+          >
+using System; 
+public class HelloWorld
+  {
+    public static void Main(string[] args)
+      {
+        Console.WriteLine(11);
+      }
+  }
+        </textarea
+          >
+        </div>
+        <div class="right wrapper">
+          <h2 id="code-return"></h2>
+          <button type="submit" (click)="setCode()" class="btn btn-primary">
+            Submit
+          </button>
+        </div>
       </div>
     </div>
   </div>
