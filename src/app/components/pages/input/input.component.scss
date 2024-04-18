@@ -39,6 +39,7 @@
 
   .right {
     width: 100%;
+    position: relative;
     &:first-child {
       height: 70%;
       margin-bottom: 10px;
@@ -52,5 +53,20 @@
       outline: none;
       background-color: transparent;
     }
+  }
+  .btn-submit {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
   }
 }
