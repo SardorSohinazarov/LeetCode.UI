@@ -11,14 +11,14 @@ import { ForgotPasswordComponent } from './components/pages/forgot-password/forg
 
 export const routes: Routes = [
   { path: '', title: 'Home page', component: HomeComponent },
-  { path: 'home', title: 'Home page', component: HomeComponent },
-  { path: 'problems', title: 'Home page', component: HomeComponent },
-  { path: 'input', title: 'Input page', component: InputComponent },
-  { path: 'profile', title: 'Profile page', component: ProfileComponent },
-  { path: 'login', title: 'Login page', component: LoginComponent },
-  { path: 'signup', title: 'Sign page', component: SignupComponent },
-
-  { path: 'submission', title: 'Submission', component: SubmissionsListComponent },
-  { path: 'forgotpassword', title: 'ForgotPassword page', component: ForgotPasswordComponent },
+  { path: 'explore', title: 'Explore - Leetcode', component: HomeComponent },
+  { path: 'problemset', title: 'Problems - Leetcode', component: HomeComponent },
+  { path: 'problems/:problem-name', title: 'Input page', component: InputComponent },
+  { path: 'login', title: 'Account Login', component: LoginComponent },
+  { path: 'signup', title: 'Account Login', component: SignupComponent },
+  
+  { path: 'problems/:problem-name/submissions', title: 'Submissions - Leetcode', component: SubmissionsListComponent },
+  { path: 'forgotpassword', title: 'ForgotPassword - Leetcode', component: ForgotPasswordComponent },
+  { path: ':username', title: 'Profile - Leetcode', component: ProfileComponent },
   { path: '**', title: 'Not Found', component: NotfoundComponent },
 ];

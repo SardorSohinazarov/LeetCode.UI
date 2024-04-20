@@ -4,10 +4,12 @@ import { ActivatedRoute, Router, RouterModule, RouterLink } from '@angular/route
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss',
 })
 export class HeaderComponent {
   constructor(private route: ActivatedRoute, private router: Router) {}
+
+  username:string = 'sardorstudent0618';
 }
